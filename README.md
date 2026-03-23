@@ -56,3 +56,13 @@ SmsForwarder/
 - **minSdk** : Android 6.0 (API 23)
 - **targetSdk** : Android 14 (API 34)
 - **Langage** : Java
+
+## Compilation via GitHub Actions
+
+Un workflow GitHub Actions est disponible dans `.github/workflows/android-build.yml`.
+
+- Il installe **Java 17**, **Gradle** et le **SDK Android 34**.
+- Il lance `gradle assembleDebug`.
+- Il publie l'APK debug en artefact de workflow.
+
+Vous pouvez le déclencher automatiquement sur `push` et `pull_request`, ou manuellement avec **Run workflow** dans l'onglet **Actions** de GitHub.
