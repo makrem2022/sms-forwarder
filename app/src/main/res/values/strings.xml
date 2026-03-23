@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SMS Forwarder</string>
+    <string name="service_channel_name">SMS Forwarder Service</string>
+    <string name="service_channel_description">Maintient le service de transfert actif en arrière-plan.</string>
+    <string name="event_channel_name">Historique des transferts</string>
+    <string name="event_channel_description">Signale chaque SMS transféré.</string>
+    <string name="notification_service_title">Transfert SMS actif</string>
+    <string name="notification_service_text">Le service de transfert surveille les SMS entrants.</string>
+    <string name="notification_forwarded_title">SMS transféré</string>
+    <string name="notification_forwarded_text">Message de %1$s transféré vers %2$s.</string>
+    <string name="hint_destination">Numéro de destination</string>
+    <string name="hint_keyword">Mot-clé</string>
+    <string name="label_forward_all">Transférer tous les SMS entrants</string>
+    <string name="label_enable">Activer le transfert</string>
+    <string name="button_permissions">Permissions</string>
+    <string name="button_save">Sauvegarder</string>
+    <string name="button_clear_logs">Effacer</string>
+    <string name="log_title">Journal</string>
+    <string name="no_logs">Aucun transfert enregistré pour le moment.</string>
+    <string name="status_enabled">🟢 Le transfert est actif</string>
+    <string name="status_disabled">🔴 Le transfert est inactif</string>
+    <string name="permissions_granted">Les permissions essentielles sont accordées.</string>
+    <string name="permissions_missing">Certaines permissions sont encore manquantes.</string>
+    <string name="configuration_saved">Configuration sauvegardée.</string>
+    <string name="logs_cleared">Journal effacé.</string>
+    <string name="error_destination_required">Veuillez saisir un numéro de destination.</string>
+    <string name="error_keyword_required">Veuillez saisir un mot-clé ou activer le mode tout transférer.</string>
+    <string name="log_configuration_saved">Configuration mise à jour.</string>
+    <string name="log_missing_destination">Impossible de transférer : numéro de destination absent.</string>
+    <string name="log_missing_sms_permission">Impossible de transférer : permission d'envoi SMS manquante.</string>
+    <string name="log_forwarded_entry">%1$s — SMS de %2$s transféré vers %3$s.</string>
+    <string name="forward_prefix">📩 Transfert depuis %1$s :</string>
+    <string name="unknown_sender">Expéditeur inconnu</string>
+</resources>
